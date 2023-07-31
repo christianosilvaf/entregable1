@@ -1,0 +1,42 @@
+.App {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 80%;
+    justify-content: space-between;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    
+}
+
+.title{
+    padding: 3.5rem 1rem 1rem;
+    margin: 1rem;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 45px;
+    text-shadow: 1px 1px 2px white, 0 0 1em gray, 0 0 0.2em black;
+}
+
+.bi1{
+    background-image: url("../public/espacio/img1.jpg");
+}
+
+.bi2{
+    background-image: url("../public/espacio/img2.jpg");
+}
+
+.bi3{
+    background-image: url("../public/espacio/img3.jpg");
+}
+
+.bi4{
+    background-image: url("../public/espacio/img4.jpg");
+}
+@media (min-width: 900px) {
+    .title{
+        font-size: 75px;
+    }
+}

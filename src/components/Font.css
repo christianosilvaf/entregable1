@@ -1,0 +1,16 @@
+.font {
+    color: white;
+    width: 300px;
+    height: 100px;
+    border-radius: 50% 50% 0 0;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    background-color: rgba(277, 277, 277, 0.2);
+    filter: blur(0.5);
+    text-shadow: black 1px 0 10px;
+}
