@@ -7,8 +7,7 @@ function App() {
   const arraybg=["bi1","bi2","bi3","bi4"];  //arreglo de clases de distintos fondos
   const [fondo, estableceDatos] = useState(randomGen(arraybg)); //hook para estadode clase de fondo
   const fromPg = () => {  //esta funcion para importar cosas del hijo
-    estableceDatos(randomGen(arraybg))
-    console.log(fondo)
+    estableceDatos(randomGen(arraybg)) //para setear el estado
 }
 
   
